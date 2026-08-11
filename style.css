@@ -1,0 +1,63 @@
+#youtube-video-zoom-controls {
+    position: absolute;
+
+    left: 50%;
+    bottom: 55px;
+
+    transform: translateX(-50%);
+
+    display: flex;
+    align-items: center;
+    gap: 2px;
+
+    padding: 3px 5px;
+
+    background: rgba(15, 15, 15, 0.9);
+
+    border-radius: 4px;
+
+    z-index: 1000;
+
+    font-family: Roboto, Arial, sans-serif;
+
+    opacity: 0.85;
+
+    transition: opacity 0.2s;
+}
+
+#youtube-video-zoom-controls:hover {
+    opacity: 1;
+}
+
+#youtube-video-zoom-controls button {
+    width: 36px;
+    height: 36px;
+
+    border: 0;
+
+    background: transparent;
+
+    color: #fff;
+
+    font-size: 22px;
+
+    cursor: pointer;
+
+    border-radius: 3px;
+}
+
+#youtube-video-zoom-controls button:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+#youtube-video-zoom-controls span {
+    min-width: 45px;
+
+    text-align: center;
+
+    color: white;
+
+    font-size: 13px;
+
+    user-select: none;
+}
