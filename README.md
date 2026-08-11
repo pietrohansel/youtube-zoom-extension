@@ -17,12 +17,12 @@ Extensão de navegador que permite **ampliar e dar zoom em vídeos do YouTube** 
 
 ## Exemplos de uso
 
-Cenário:  Tela dividida com IDE para programar por meio de um video no Youtube.
+**Cenário:** Tela dividida com uma IDE para programação e um vídeo do YouTube.
 
-![1786469060323](image/README/1786469060323.png)
+![Imagem normal](sem_zoom.png)
 
 Sem zoom
 
-![1786468820982](image/README/1786468820982.png)
+![Imagem com zoom](com_zoom.png)
 
 Com zoom
