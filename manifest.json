@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Video Zoom",
+  "version": "1.0.0",
+  "description": "Permite aplicar zoom somente no vídeo do YouTube.",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.youtube.com/*"
+      ],
+      "js": [
+        "state.js",
+        "zoom.js",
+        "controls.js",
+        "drag.js",
+        "video-detector.js",
+        "keyboard.js",
+        "main.js"
+      ],
+      "css": [
+        "style.css"
+      ]
+    }
+  ]
+}
+
+
+
